@@ -26,6 +26,7 @@ public class Main {
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
+		//registering the event handlers
 		MinecraftForge.EVENT_BUS.register(new BlockBreakMessage());
 		MinecraftForge.EVENT_BUS.register(new ExplodingMinecarts());
 		MinecraftForge.EVENT_BUS.register(new ExplodingAnvils());
