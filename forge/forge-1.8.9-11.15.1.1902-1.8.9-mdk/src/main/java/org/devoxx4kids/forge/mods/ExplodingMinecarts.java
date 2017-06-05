@@ -1,5 +1,4 @@
 package org.devoxx4kids.forge.mods;
-
 //imports here
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraftforge.event.entity.minecart.MinecartCollisionEvent;
@@ -18,5 +17,4 @@ public class ExplodingMinecarts {
     2,
     false);
   }
-
 }
